@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Travels;
+use App\Travel;
 
 class HolidayController extends Controller
 {
     function index() {
 
-        $viaggi=Travels::all();
+        $viaggi=Travel::all();
 
         return $viaggi; 
 
