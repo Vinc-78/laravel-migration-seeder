@@ -8,7 +8,7 @@
 </head>
 <body>
     
-
+    <?php  var_dump({{singolTravel}}) ?>
 
 </body>
 </html>
